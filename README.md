@@ -16,3 +16,11 @@ Not yet:
 - Auth
 - Real search logic
 - Real dark mode persistence
+
+## Week 1 Progress
+
+### Thursday
+- Added core Task and Note TypeScript models.
+- Added typed mock data for static dashboard modules.
+- Built static TaskList and NoteList components.
+- Kept scope intentionally limited: no CRUD, no database, no state library yet.

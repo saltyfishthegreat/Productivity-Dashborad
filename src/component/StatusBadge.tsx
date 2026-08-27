@@ -5,10 +5,10 @@ export default function StatusBadge({ status }: { status: string }) {
     if (status ==="in progress"){
         badgeColor = "bg-yellow-500"
         badgeBorderColor = "border-yellow-300"
-    }else if(status === "completed"){
+    }else if(status === "todo"){
         badgeColor = "bg-green-500"
         badgeBorderColor = "border-green-300"
-    }else if(status === "not started"){
+    }else if(status === "done"){
         badgeColor = "bg-red-500"
         badgeBorderColor = "border-red-300"
     }
