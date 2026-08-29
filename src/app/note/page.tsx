@@ -6,7 +6,7 @@ export default function NotePage() {
     return (
         <>
             { noteList.map((note: Note) =>
-                <NoteCard key={note.title} note={note} />
+                <NoteCard key={note.uid} note={note} />
              )} 
         </>
     )

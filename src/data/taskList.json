@@ -1,32 +1,29 @@
 [
   {
-    "id": 1,
+    "uid": 1,
     "icon": "🍽️",
     "title": "吃饭",
     "assignee": "张三",
-    "status": "in progress",
     "dueDate": "2024-06-30",
-    "startDate": "2024-06-28",
+    "status": "in progress",
     "creater": "张三"
   },
   {
-    "id":2,
+    "uid":2,
     "icon": "💻",
     "title": "写代码",
-    "status": "done",
     "assignee": "李四",
     "dueDate": "2024-07-01",
-    "startDate": "2024-06-29",
+    "status": "done",
     "creater": "李四"
   },
   {
-    "id":3,
+    "uid":3,
     "icon": "📚",
     "title": "学习",
-    "status": "done",
     "assignee": "王五",
     "dueDate": "2024-06-29",
-    "startDate": "2024-06-27",
+    "status": "done",
     "creater": "王五"
   }
 ]

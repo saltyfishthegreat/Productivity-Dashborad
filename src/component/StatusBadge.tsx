@@ -1,4 +1,6 @@
-export default function StatusBadge({ status }: { status: string }) {
+import type { Status } from "../types/types";
+
+export default function StatusBadge({ status }: { status: Status }) {
     let badgeColor = "";
     let badgeBorderColor = "";
 
