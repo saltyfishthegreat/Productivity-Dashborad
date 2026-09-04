@@ -1,4 +1,4 @@
-import TaskCard from "../component/TaskCard";
+
 
 export default function Home() {
 
@@ -26,7 +26,6 @@ export default function Home() {
         </li>
       </ul>
       <div>
-        <TaskCard />
       </div>
     </>
   )

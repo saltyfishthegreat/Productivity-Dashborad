@@ -1,5 +1,5 @@
-const mainFunction = ['Add Task', 'Tasks','Note', 'Settings']
-const route = ['addTask', 'tasks','note', 'settings']
+const mainFunction = ['Tasks','Note', 'Settings']
+const route = ['tasks','note', 'settings']
 export default function Sider(){
     return (
         <>
